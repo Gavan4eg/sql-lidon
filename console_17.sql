@@ -31,3 +31,6 @@ FROM (select cast(date_format(s.period, '%Y.%m.%d %H') as datetime) AS DatTim_,
                       ura.DatTim_ < gr.DTEnd and gr.DSm >= '2023-01-01' asdfsa
 
 lexa
+
+lexa end alex
+from ukraine
