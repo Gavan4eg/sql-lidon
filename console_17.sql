@@ -29,8 +29,5 @@ FROM (select cast(date_format(s.period, '%Y.%m.%d %H') as datetime) AS DatTim_,
          LEFT join _zpgraf_level as gr
                    on ura.clinic_ = gr.Klinic and ura.fio_schedule_ = gr.sotr AND ura.DatTim_ >= gr.DTStart and
                       ura.DatTim_ < gr.DTEnd and gr.DSm >= '2023-01-01' asdfsa
-asdfsdf
-asd
-f
-df
-a
+
+lexa
